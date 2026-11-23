@@ -2,7 +2,7 @@
 session_start();
 $MAX_ERRORS = 7; 
 
-$mots = ["BITE","TRUC","CONNARD","CHIANT","PENIS","LINUX","DEBIAN","WINDOW"];
+$mots = ["LINUX", "DISTRO", "NIXOS", "DEBIAN", "CODEBERG"];
 
 
 
