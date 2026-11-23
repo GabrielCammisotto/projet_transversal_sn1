@@ -15,7 +15,7 @@
             <section class="option_bar">
                 <ul>
                     <li><a href="./index.php">Home</a></li>
-                    <li><a href="./game.php">play</a></li>
+                    <li><a href="./play.php">play</a></li>
                     <li><a href="./rule.php">how to play</a></li>
                     <li><a href="./ranking.php">ranking list</a></li>
                     <?php if (isset($_SESSION['login'])): ?>
