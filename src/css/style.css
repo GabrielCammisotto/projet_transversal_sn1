@@ -151,3 +151,127 @@ body{
     color:#1F1400;
 }
 
+/* Play */
+.play {
+    max-width: 38rem;
+    margin: clamp(2rem, 8vw, 6rem) auto;
+    padding: 0 1rem;
+    font-family: system-ui, sans-serif;
+}
+
+.game-card {
+    background: #1E2130;
+    border: 1px solid #414559;
+    border-radius: 24px;
+    padding: clamp(1.25rem, 5vw, 3rem);
+}
+
+.game-heading, .guess-controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+
+.game-heading {
+    justify-content: space-between;
+}
+
+.game-heading h2 {
+    margin: 0;
+    font-size: clamp(2rem, 6vw, 3rem);
+    line-height: 1.1;
+    letter-spacing: -.04em;
+}
+
+.mistakes, .missed-letters {
+    color: #B4B6C2;
+}
+
+.mistakes strong, .missed-letters strong {
+    margin-left: .4em;
+    color: #F3EFE4;
+}
+
+.word-slots {
+    display: flex;
+    gap: clamp(3px, 1vw, 8px);
+    margin: 2rem 0 1rem;
+}
+
+.word-slots span {
+    flex: 1;
+    max-width: 3.5rem;
+    padding: .5em 0;
+    border-bottom: 2px solid #F2C14E;
+    border-radius: 6px 6px 0 0;
+    background: #14161F;
+    text-align: center;
+    font: bold clamp(1rem, 4vw, 2rem) monospace;
+}
+
+.missed-letters {
+    margin: 0 0 1.75rem;
+}
+
+.guess-form, .game-result {
+    padding-top: 1.25rem;
+    border-top: 1px solid #414559;
+}
+
+.guess-form label, .game-result p {
+    display: block;
+    margin: 0 0 .75rem;
+    font-weight: 700;
+}
+
+.guess-controls input {
+    width: 3rem;
+    height: 2.75rem;
+    box-sizing: border-box;
+    background: #14161F;
+    border: 1px solid #82869A;
+    border-radius: 8px;
+    color: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    font: bold 1.25rem monospace;
+}
+
+.game-action {
+    display: inline-block;
+    padding: .75rem 1.75rem;
+    border: 0;
+    border-radius: 999px;
+    background: #F2C14E;
+    color: #14161F;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.game-action:hover {
+    background: #FFD36E;
+}
+
+.play :focus-visible {
+    outline: 2px solid #F2C14E;
+    outline-offset: 3px;
+}
+
+@media (max-width: 48rem) {
+    .nav_bar, .option_bar ul {
+        flex-wrap: wrap;
+        gap: .75rem 1rem;
+    }
+
+    .option_bar {
+        flex-basis: 100%;
+    }
+
+    .option_bar ul {
+        padding: 0;
+        margin: 0;
+    }
+}
