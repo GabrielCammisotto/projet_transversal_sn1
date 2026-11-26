@@ -11,7 +11,7 @@
     <header class="header">
         <nav class="nav_bar">
             <img src="./images/hangled-icone.svg" alt="logo">
-            <h1 class="title"><span style="color: #F2C14E">The</span> hangled</h1>
+            <h1 class="title"><span style="color: #F2C14E">The</span> hanged</h1>
             <section class="option_bar">
                 <ul>
                     <li><a href="./index.php">Home</a></li>

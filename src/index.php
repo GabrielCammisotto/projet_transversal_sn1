@@ -2,7 +2,7 @@
     <main >
         <section class="index_title">
             <p class="kicker">The hangman game, reinvented</p>
-            <h1 style="color: #F3EFE4;"class="title_page"><span style="color: #F2C14E">The</span > hangled game</h1>
+            <h1 style="color: #F3EFE4;"class="title_page"><span style="color: #F2C14E">The</span > hanged game</h1>
             <p class="subtitle">Choose your difficulty and save the hangman.</p>
         </section>
         <div class="cards">
